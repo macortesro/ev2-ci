@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class SumaTest {
   @Test
-  void suma_dos_enteros() {
+  void suma_dos_enteros_correcto() {
     assertEquals(7, 3 + 4);
   }
 }
