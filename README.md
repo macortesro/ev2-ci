@@ -248,7 +248,7 @@ ls target/surefire-reports/
 
 ## 10) Alumno y link a github
 
-Matías CORTÉS ROMERO - Github: https://github.com/macortesro/ev2-ci
+Matías Alejandro CORTÉS ROMERO - Github: https://github.com/macortesro/ev2-ci
 
 
 
