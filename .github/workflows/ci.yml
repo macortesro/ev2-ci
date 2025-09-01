@@ -18,3 +18,47 @@ jobs:
         with:
           name: junit-reports
           path: target/surefire-reports/*
+      - name: Publicar reportes BDD (Cucumber)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report
+          path: |
+            target/cucumber-report.html
+            target/cucumber-report.json
+      - name: Instalar k6
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gnupg2 ca-certificates
+          curl -s https://repo.k6.io/key.gpg | sudo gpg --dearmor | sudo tee /usr/share/keyrings/k6-archive-keyring.gpg > /dev/null
+          echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://repo.k6.io/apt stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+          sudo apt-get update
+          sudo apt-get install -y k6
+
+      - name: Ejecutar k6 (smoke)
+        run: |
+          k6 run --summary-export=./k6-summary.json perf/login-smoke.k6.js
+
+      - name: Publicar artefactos de performance
+        uses: actions/upload-artifact@v4
+        with:
+          name: k6-results
+          path: |
+            k6-summary.json
+      - name: Resumen de métricas (Actions Summary)
+        run: |
+          echo "## Resumen de pruebas" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### BDD (Cucumber)" >> $GITHUB_STEP_SUMMARY
+          echo "- Reporte HTML: descargable en Artifacts (**cucumber-report**)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Performance (k6)" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+          cat k6-summary.json >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+      - name: Publicar reportes BDD (Cucumber)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report
+          path: |
+            target/cucumber-report.html
+            target/cucumber-report.json
