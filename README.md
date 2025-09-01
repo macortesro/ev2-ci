@@ -27,7 +27,7 @@ Proyecto  para la evaluación de la unidad 2. Implementa pruebas unitarias con J
 ---
 
 ## 3) Estructura del proyecto
-
+```bash
 ev2-ci/
 ├─ .github/
 │ └─ workflows/
@@ -42,6 +42,8 @@ ev2-ci/
 ├─ pom.xml   (Configuración de Maven + dependencias)
 └─ README.md
 
+
+```
 
 - Archivos clave:
 - pom.xml: configuración Maven + JUnit 5 (Surefire).
@@ -162,56 +164,73 @@ Pipeline CI rápido, determinista y con cache de Maven.
 
 ## 8) Evidencias (capturas de pantalla del proceso)
 
-
-- Inicialización de repositorio y primeros commits
 ![Evidencia 1](docs/img/capturadepantalla%20(1).png)  
-![Evidencia 2](docs/img/capturadepantalla%20(2).png)  
-![Evidencia 3](docs/img/capturadepantalla%20(3).png)  
-![Evidencia 4](docs/img/capturadepantalla%20(4).png)  
-![Evidencia 5](docs/img/capturadepantalla%20(5).png)  
+
+![Evidencia 2](docs/img/capturadepantalla%20(2).png)
+
+![Evidencia 3](docs/img/capturadepantalla%20(3).png) 
+
+![Evidencia 4](docs/img/capturadepantalla%20(4).png) 
+
+![Evidencia 5](docs/img/capturadepantalla%20(5).png) 
+
 ![Evidencia 6](docs/img/capturadepantalla%20(6).png)  
+
 ![Evidencia 7](docs/img/capturadepantalla%20(7).png)  
+
 ![Evidencia 8](docs/img/capturadepantalla%20(8).png)  
+
 ![Evidencia 9](docs/img/capturadepantalla%20(9).png)  
+
 ![Evidencia 10](docs/img/capturadepantalla%20(10).png)  
 
----
-
--  Configuración Maven y pruebas unitarias (local)
 ![Evidencia 11](docs/img/capturadepantalla%20(11).png)  
+
 ![Evidencia 12](docs/img/capturadepantalla%20(12).png)  
+
 ![Evidencia 13](docs/img/capturadepantalla%20(13).png)  
+
 ![Evidencia 14](docs/img/capturadepantalla%20(14).png)  
+
 ![Evidencia 15](docs/img/capturadepantalla%20(15).png)  
+
 ![Evidencia 16](docs/img/capturadepantalla%20(16).png)  
+
 ![Evidencia 17](docs/img/capturadepantalla%20(17).png)  
+
 ![Evidencia 18](docs/img/capturadepantalla%20(18).png)  
+
 ![Evidencia 19](docs/img/capturadepantalla%20(19).png)  
+
 ![Evidencia 20](docs/img/capturadepantalla%20(20).png)  
 
----
-
--  Ejecución en CI/CD con GitHub Actions
 ![Evidencia 21](docs/img/capturadepantalla%20(21).png)  
+
 ![Evidencia 22](docs/img/capturadepantalla%20(22).png)  
+
 ![Evidencia 23](docs/img/capturadepantalla%20(23).png)  
+
 ![Evidencia 24](docs/img/capturadepantalla%20(24).png)  
+
 ![Evidencia 25](docs/img/capturadepantalla%20(25).png)  
+
 ![Evidencia 26](docs/img/capturadepantalla%20(26).png)  
+
 ![Evidencia 27](docs/img/capturadepantalla%20(27).png)  
+
 ![Evidencia 28](docs/img/capturadepantalla%20(28).png)  
+
 ![Evidencia 29](docs/img/capturadepantalla%20(29).png)  
+
 ![Evidencia 30](docs/img/capturadepantalla%20(30).png)  
 
----
-
-- Pull Request y Merge a main
 ![Evidencia 31](docs/img/capturadepantalla%20(31).png)  
+
 ![Evidencia 32](docs/img/capturadepantalla%20(32).png)  
+
 ![Evidencia 33](docs/img/capturadepantalla%20(33).png)  
+
 ![Evidencia 34](docs/img/capturadepantalla%20(34).png)  
-
-
 
 ## 9) Cómo reproducir
 
