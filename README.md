@@ -328,33 +328,23 @@ Esto asegura visibilidad inmediata de fallos.
 
 ## 9) Evidencia
 
-![Evidencia 1](docs/img/ACTIVIDAD2-(1).png) 
+## 9) Evidencia
 
-![Evidencia 2](docs/img/ACTIVIDAD2-(2).png)
+![Evidencia 1](docs/img/ACTIVIDAD2-%281%29.png)
+![Evidencia 2](docs/img/ACTIVIDAD2-%282%29.png)
+![Evidencia 3](docs/img/ACTIVIDAD2-%283%29.png)
+![Evidencia 4](docs/img/ACTIVIDAD2-%284%29.png)
+![Evidencia 5](docs/img/ACTIVIDAD2-%285%29.png)
+![Evidencia 6](docs/img/ACTIVIDAD2-%286%29.png)
+![Evidencia 7](docs/img/ACTIVIDAD2-%287%29.png)
+![Evidencia 8](docs/img/ACTIVIDAD2-%288%29.png)
+![Evidencia 9](docs/img/ACTIVIDAD2-%289%29.png)
+![Evidencia 10](docs/img/ACTIVIDAD2-%2810%29.png)
+![Evidencia 11](docs/img/ACTIVIDAD2-%2811%29.png)
+![Evidencia 12](docs/img/ACTIVIDAD2-%2812%29.png)
+![Evidencia 13](docs/img/ACTIVIDAD2-%2813%29.png)
+![Evidencia 14](docs/img/ACTIVIDAD2-%2814%29.png)
 
-![Evidencia 3](docs/img/ACTIVIDAD2-(3).png)
-
-![Evidencia 4](docs/img/ACTIVIDAD2-(4).png)
-
-![Evidencia 5](docs/img/ACTIVIDAD2-(5).png)
-
-![Evidencia 6](docs/img/ACTIVIDAD2-(6).png)
-
-![Evidencia 7](docs/img/ACTIVIDAD2-(7).png)
-
-![Evidencia 8](docs/img/ACTIVIDAD2-(8).png)
-
-![Evidencia 9](docs/img/ACTIVIDAD2-(9).png)
-
-![Evidencia 10](docs/img/ACTIVIDAD2-(10).png)
-
-![Evidencia 11](docs/img/ACTIVIDAD2-(11).png)
-
-![Evidencia 12](docs/img/ACTIVIDAD2-(12).png)
-
-![Evidencia 13](docs/img/ACTIVIDAD2-(13).png)
-
-![Evidencia 14](docs/img/ACTIVIDAD2-(14).png)
 
 ## 10) Alumno y link a github
 
