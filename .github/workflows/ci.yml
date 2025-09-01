@@ -55,6 +55,7 @@ jobs:
           echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
           cat k6-summary.json >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          
       - name: Publicar reportes BDD (Cucumber)
         uses: actions/upload-artifact@v4
         with:
@@ -62,3 +63,4 @@ jobs:
           path: |
             target/cucumber-report.html
             target/cucumber-report.json
+          if-no-files-found: warn
